@@ -21,6 +21,7 @@ $fp = fopen('covid19casos.sql', 'w');
  * http://datos.salud.gob.ar/dataset/covid-19-casos-registrados-en-la-republica-argentina/archivo/fd657d02-a33a-498b-a91b-2ef1a68b8d16
  *------------------------------------------------------------------------------------------------------------------------------------
  */
+ 
 fwrite($fp,"DROP TABLE IF EXISTS `casos_covid`;".PHP_EOL);
 fwrite($fp,"CREATE TABLE IF NOT EXISTS `casos_covid` (".PHP_EOL);
 fwrite($fp,"  `id_caso` int(11) DEFAULT NULL,".PHP_EOL);
