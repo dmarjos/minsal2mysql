@@ -15,6 +15,7 @@ $datos=file('./Covid19Casos.csv');
  */
 $fp = fopen('covid19casos.sql', 'w');
 
+
 /**
  *------------------------------------------------------------------------------------------------------------------------------------
  * Borrar tabla de base de datos y crear nueva tabla con la estructura provista por la página del Ministerio de Salud de la Nacion

@@ -1,3 +1,5 @@
+
+
 DROP VIEW IF EXISTS `casos_caba`;
 CREATE VIEW `casos_caba` as select * from `casos_covid` where provincia_residencia = 'CABA';
 
